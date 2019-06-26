@@ -34,14 +34,14 @@ body{
 	height:inherit;
 	position:relative;
 	font-family: "Microsoft YaHei";
-	-webkit-backface-visibility:hidden;
-	        backface-visibility:hidden;
+	/* -webkit-backface-visibility:hidden;
+	        backface-visibility:hidden; */
 	background:rgba(255,255,255,.5);
 	border:1px solid rgba(0,0,0,.35);
-	-webkit-transform:rotateY(180deg);
+	/* -webkit-transform:rotateY(180deg);
 	        transform:rotateY(180deg);
 	-webkit-transition:-webkit-transform .4s ease-in-out 0s;
-	        transition:transform .4s ease-in-out 0s;
+	        transition:transform .4s ease-in-out 0s; */
 }
 .profile-card-wrap .content:before{
 	top:50%;
@@ -128,10 +128,10 @@ body{
 	position:relative;
 	border-radius:50%;
 	border:5px solid #fff;
-	-webkit-transform:scale(.6);
+	/* -webkit-transform:scale(.6);
 	    -ms-transform:scale(.6);
-	        transform:scale(.6);
-	background:url(../img/avatar.jpeg) #fff no-repeat center / cover;
+	        transform:scale(.6); */
+	background:url(../img/avatar.jpg) #fff no-repeat center / cover;
 	box-shadow:0 0 2px, 0 5px 5px rgba(47,66,81,.75);
 	-webkit-transition:-webkit-transform .5s ease-in-out 0s;
 	        transition:transform .5s ease-in-out 0s;
